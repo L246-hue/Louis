@@ -1,0 +1,17 @@
+section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+article{
+	width: 500px;
+	min-width: 200px;
+	margin: 10px;
+	padding: 10px;
+	border: solid lightblue;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+article p{
+	text-align: justify;
+}

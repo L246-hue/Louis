@@ -1,0 +1,63 @@
+@import url(components/banner.css);
+@import url(components/section.css);
+@import url(components/container.css);
+
+@font-face {
+font-family: 'Montserrat', sans-serif;
+font-family: 'Permanent Marker', cursive;
+}
+
+body{
+	margin: 0px;
+}
+
+h2{
+	text-decoration: underline;
+	text-align: center;
+}
+h1, h2{
+	font-family: Permanent Marker, Arial;
+}
+p, a{
+	font-family: Montserrat, calibri;
+}
+img{
+	width: 200px;
+	float: right;
+	margin-left: 15px;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	display: inline;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+a:visited{
+	color:black;
+}
+i{
+	font-size: 32px;
+	margin-right: 20px;
+}
+footer{
+	margin-top: 30px;
+	padding: 20px;
+	min-height: 100px;
+	background-color: lightgreen;
+}
+
+.btn{
+	border: 1px solid black;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 5px;
+	background-color: lightgrey;
+}
+.btn:hover{
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
